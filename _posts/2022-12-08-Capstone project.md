@@ -1,4 +1,9 @@
 # Virtual pen
+layout: post
+title: Virtual pen
+author: [劉子維·謝凱亦]
+category: [Lecture]
+tags: [ai]
 #### Virtual pen (虛擬筆)
 ### 期末專題描述
 
