@@ -10,19 +10,25 @@ tags: [jekyll, ai]
 
 透過視訊鏡頭偵測顏色及輪廓並使用各種顏色的筆來寫出不同顏色的字及線條
 
--
+--
 ### 開發過程:
 
 1. 讀取鏡頭
 2. 偵測並過濾顏色範圍
 3. 偵測不同顏色筆的筆尖並選取輪廓
-4.
+4. 同樣的作法套用在其他顏色上
+5. 做出墨水出水點
 
--
-### OpenPose
-**Kaggle:** [rkuo2000/openpose-pytorch](https://github.com/rkuo2000/openpose-pytorch)<br>
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenPose_pytorch_racers.png?raw=true)
-![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenPose_pytorch_fall1.png?raw=true)
+--
+### 執行環境
+這次使用的環境在軟硬體上要求非常低，全部在編譯器上即可完成，唯一的要求必須要有視訊鏡頭
+以下是使用版本供參考
+-python 3.11
+-opencv
+-numby
+直接從編譯器安裝即可
+### 編譯器
+-Pycharm community Edition 2022.3.1
 
 ---
 ### Pose Recognition (姿態辨識)
