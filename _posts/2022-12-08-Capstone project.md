@@ -192,7 +192,7 @@ def draw(drawpoints):
     for point in drawpoints:
         cv2.circle(imgContour, (point[0], point[1]), 10, penColorBGR[point[2]], cv2.FILLED)
 ```
-### 完整 Virtula pen 程式
+### 完整 Virtual pen 程式
 
 **顏色偵測**
 ```
@@ -301,3 +301,8 @@ while True:
     if cv2.waitKey(1) == ord('q'):
         break
 ```
+### 成果說明
+
+**影片展示
+
+<iframe width=854 height=480  src="https://youtu.be/nSLVCzsJ88w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="onYouTubeIframeAPIReady()"></iframe>
