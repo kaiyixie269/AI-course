@@ -41,9 +41,9 @@ tags: [ai]
 ### 基本色彩介紹
 **RGB Color system**
 
-RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色組張，分別是紅、藍及綠。
+RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色組合而成，分別是紅、藍及綠。
 
-![](C:\Users\crazy\Downloads\VideoScreenshot--YouTube-pythonopencv2-4’13”.jpg)
+![]([C:\Users\crazy\Downloads\VideoScreenshot--YouTube-pythonopencv2-4’13”.jpg](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322322337_703527114646949_6883571111480502282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cFieXciHPtAAX__oWB5&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdT_tv_vdrpk56JivEbQF6EtXoVLydF8H-sfGQWltZJYMQ&oe=63D910D9))
 ### Pose Recognition (姿態辨識)
 
 **專題實作步驟:**
