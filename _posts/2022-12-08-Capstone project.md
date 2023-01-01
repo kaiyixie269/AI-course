@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Virtual pen
-author: [劉子維·謝凱亦]
+author: [劉子維]
 category: [Lecture]
 tags: [ai]
 ---
