@@ -130,5 +130,26 @@ while True:
 ```
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/322262274_720590975999374_8670511542716617065_n.png?stp=dst-png_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=BEFXQJtc2MEAX9JWr_E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS7IykRQxlnY7ezXX7RlxGMErnBn9g_hh73G0E1uPyGFQ&oe=63D91C50)              ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321977649_730547511840179_1477310677725218409_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=2aJJ-c8voYEAX_a6tYf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTAq-5lmV5G_vRcYKTlaf5z8ftamZE83AaXsE6eaiMPDQ&oe=63D918CB)
 
+過濾後取得顏色的六項數值
+
+**偵測顏色輪廓**
+
+偵測輪廓
+```
+contours, hierarchy = cv2.findContours(img, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_NONE)
+```
+劃出輪廓
+```
+cv2.drawContours(imgContour, cnt, -1, (255, 0, 0), 4)
+```
+使用多邊形近似輪廓
+```
+peri = cv2.arcLength(cnt, True)
+vertices = cv2.approxPolyDP(cnt, peri * 0.02, True)
+```
+得出這個多邊形的四項座標
+```
+x, y, w, h = cv2.boundingRect(vertices)
+```
 
 
