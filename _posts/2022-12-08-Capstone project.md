@@ -151,5 +151,5 @@ vertices = cv2.approxPolyDP(cnt, peri * 0.02, True)
 ```
 x, y, w, h = cv2.boundingRect(vertices)
 ```
-
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/322854187_2286169691550731_3726623165607082009_n.png?stp=dst-png_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=5goDnG_ThX8AX-4lTE8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRLKe6Z2-DhgMmZ7Q5uibmCS6DmXCzN5YFcKfo8ujvopg&oe=63D93F53)
 
