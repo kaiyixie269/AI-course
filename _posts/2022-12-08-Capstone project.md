@@ -68,7 +68,7 @@ tags: [ai]
 **讀取視訊鏡頭**
 
   使用 VideoCapture 的函示來讀取
-
+```
 cap = cv2.VideoCapture(0)
 while True:
     ret, frame = cap.read()
@@ -78,7 +78,7 @@ while True:
         break
     if cv2.waitKey(1) == ord('q'):
         break
- 
+ ```
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/321890406_932923970928537_9062583774154398667_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=uqR-JeAt938AX_5DzXS&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdQUuZdZdF2udRFf1ZnaoYWVdP01YknRpuMNmpAY-j-yzg&oe=63D927D1)
 
 
