@@ -5,7 +5,7 @@ author: [kaiyixie269]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
-### Virtual pen (虛擬筆)
+#### Virtual pen (虛擬筆)
 ### 期末專題描述
 
 透過視訊鏡頭偵測顏色及輪廓並使用各種顏色的筆來寫出不同顏色的字及線條
