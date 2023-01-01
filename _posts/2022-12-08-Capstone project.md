@@ -1,7 +1,6 @@
 # Virtual pen (虛擬筆)
-layout: post
-title: Virtual pen
-謝凱亦·劉子維 2023/1/1
+#
+***
 category: [Lecture]
 tags: [jekyll, ai]
 ---
