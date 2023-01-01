@@ -6,7 +6,7 @@ category: [Lecture]
 tags: [ai]
 ---
 #### Virtual pen (虛擬筆)
-### 期末專題描述
+**期末專題描述**
 
 透過視訊鏡頭偵測顏色及輪廓並使用各種顏色的筆來寫出不同顏色的字及線條
 
@@ -22,13 +22,18 @@ tags: [ai]
 ---
 ### 執行環境
  這次使用的環境在軟硬體上要求非常低，全部在編譯器上即可完成，唯一的要求必須要有視訊鏡頭
+ 
  以下是使用版本供參考
- -python 3.11
- -opencv
- -numby
+ 
+ * python 3.11
+ * opencv
+ * numby
+ 
  直接從編譯器安裝即可
+
 ### 編譯器
--Pycharm community Edition 2022.3.1
+
+* Pycharm community Edition 2022.3.1
 
 ----
 ### Pose Recognition (姿態辨識)
