@@ -42,20 +42,20 @@ tags: [ai]
 **RGB Color system**
 * [RGB和CMYK的色彩模式差異](https://jessielab.com/rgb%E5%92%8Ccmyk%E7%9A%84%E8%89%B2%E5%BD%A9%E6%A8%A1%E5%BC%8F%E5%B7%AE%E7%95%B0%EF%BC%8C%E9%97%9C%E6%96%BC%E8%A8%AD%E8%A8%88%E9%87%8D%E8%A6%81%E7%9A%84%E5%B0%8F%E4%BA%8B/)
 
-RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色的值組合而成，分別是紅、藍及綠。
+  RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色的值組合而成，分別是紅、藍及綠。
 
 ![](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322322337_703527114646949_6883571111480502282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cFieXciHPtAAX__oWB5&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdT_tv_vdrpk56JivEbQF6EtXoVLydF8H-sfGQWltZJYMQ&oe=63D910D9)
 
 **HSV Color system**
 * [HSL and HSV](https://zh.wikipedia.org/zh-tw/HSL%E5%92%8CHSV%E8%89%B2%E5%BD%A9%E7%A9%BA%E9%97%B4)
 
-HSV 同樣與 RGB 為顏色表達方式，但不同的是 HSV 分為三種，分別是 Hue(色調)、Saturation(飽和度)以及Value(亮度)，利用這三者的值來表達顏色。
+  HSV 同樣與 RGB 為顏色表達方式，但不同的是 HSV 分為三種，分別是 Hue(色調)、Saturation(飽和度)以及Value(亮度)，利用這三者的值來表達顏色。
 
 ![](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322600269_717995306710863_4803001096202598556_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=sDNiSE6LbUcAX82Vkhg&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdS4mmYV-2f3Sq505-m5akTltBLcE-l3S81RT-aoxRYWVg&oe=63D91924)
 
-HSV 相較於 RGB 更容易過濾出單一的顏色，所以在執行時必須由 RGB 轉為 HSV。
+  HSV 相較於 RGB 更容易過濾出單一的顏色，所以在執行時必須由 RGB 轉為 HSV。
 
-顏色過濾示意
+  顏色過濾示意
 
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322354254_830394458021770_6704450352573886447_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=OSdzHaTS4k0AX9jWMCG&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdQXDVlsp40xWDjXAbbHnn_yLnaFkxDlN3H-leleIjk0_g&oe=63D90719)
 
