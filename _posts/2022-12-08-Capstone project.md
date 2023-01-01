@@ -161,3 +161,21 @@ x, y, w, h = cv2.boundingRect(vertices)
 return x+w//2, y
 ```
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/318450774_869177634320911_6055296241311174056_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=3n0tuGzf-WsAX_Cf7Zw&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQktIDO0lSP2uiN19VXlbm0bFCvjL8I8YqxBEd7VbYFGQ&oe=63D94401)
+
+**加入另外兩個顏色黃跟綠**
+
+黃與綠的六項數值
+```
+penColorHSV = [[103, 102, 104, 133, 255, 255],
+               [70, 118, 76, 108, 255, 245],
+               [25, 93, 134, 56, 255, 255]]
+```
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/316841778_708471490659550_2012643439193290649_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=iBeck9iqxq0AX-hdpQG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSjP-96o5HSjmN9r1qBi5-QyPns-yey7BY0M894oXWDKg&oe=63D92D84)
+
+將筆尖出水點改為對應顏色，並將輪廓刪去較為明顯。
+```
+penColorBGR = [[255, 0, 0],
+               [0, 255, 0],
+               [0, 255, 255]]
+```
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/319130721_533708955361233_6011164299438475289_n.png?stp=dst-png_p206x206&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=K4vb1NT_gPcAX-FVTIl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQrWCS_y8fsfgaQyt3pYWgfSysHJsAcL23PzYireqFnoA&oe=63D93092)
