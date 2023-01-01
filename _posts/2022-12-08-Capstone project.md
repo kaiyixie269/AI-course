@@ -5,7 +5,7 @@ author: [劉子維·謝凱亦]
 category: [Lecture]
 tags: [ai]
 ---
-#### Virtual pen (虛擬筆)
+### Virtual pen (虛擬筆)
 **期末專題描述**
 
 透過 Python OpenCV 圖像識別及視訊鏡頭偵測顏色及輪廓並使用各種顏色的筆來寫出彩色的字及線條
@@ -38,7 +38,7 @@ tags: [ai]
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322738771_468128355307488_1754149219618568078_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=efMgIWEhYmgAX9CGJn3&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdTdn_6JR2vHp8_GjdyfXD39_Y0KovOau5H9lbCowRvOoQ&oe=63D8FFA9)
 
 ----
-#### 基本色彩介紹
+### 基本色彩介紹
 **RGB Color system**
 ### Pose Recognition (姿態辨識)
 
