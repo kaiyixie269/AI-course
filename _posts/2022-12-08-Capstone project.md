@@ -67,7 +67,7 @@ tags: [ai]
 
 **讀取視訊鏡頭**
 
-  使用 VideoCapture 的函示來讀取
+  使用 VideoCapture 的函式來讀取
 ```
 cap = cv2.VideoCapture(0)
 while True:
@@ -81,6 +81,54 @@ while True:
  ```
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/321890406_932923970928537_9062583774154398667_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=uqR-JeAt938AX_5DzXS&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdQUuZdZdF2udRFf1ZnaoYWVdP01YknRpuMNmpAY-j-yzg&oe=63D927D1)
 
+**偵測並過濾顏色**
+
+讀取每一偵的畫面
+```
+ret, img = cap.read()
+```
+將每一偵畫面轉為 HSV
+```
+hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+```
+建立一個動態的控制條來調整 HSV 的各項數值以過濾顏色
+```
+cv2.namedWindow('TrackBar')
+cv2.resizeWindow('TrackBar', 640, 320)
+
+cv2.createTrackbar('Hue Min', 'TrackBar', 0, 179, empty)
+cv2.createTrackbar('Hue Max', 'TrackBar', 179, 179, empty)
+cv2.createTrackbar('Sat Min', 'TrackBar', 0, 255, empty)
+cv2.createTrackbar('Sat Max', 'TrackBar', 255, 255, empty)
+cv2.createTrackbar('Val Min', 'TrackBar', 0, 255, empty)
+cv2.createTrackbar('Val Max', 'TrackBar', 255, 255, empty)
+```
+即時取得改變後的數值
+```
+while True:
+    h_min = cv2.getTrackbarPos('Hue Min', 'TrackBar')
+    h_max = cv2.getTrackbarPos('Hue Max', 'TrackBar')
+    s_min = cv2.getTrackbarPos('Sat Min', 'TrackBar')
+    s_max = cv2.getTrackbarPos('Sat Max', 'TrackBar')
+    v_min = cv2.getTrackbarPos('Val Min', 'TrackBar')
+    v_max = cv2.getTrackbarPos('Val Max', 'TrackBar')
+    print(h_min, h_max, s_min, s_max, v_min, v_max)
+```
+過濾後顯示即時的圖片
+```
+ lower = np.array([h_min, s_min, v_min])
+    upper = np.array([h_max, s_max, v_max])
+
+    mask = cv2.inRange(hsv, lower, upper)
+    result = cv2.bitwise_and(img, img, mask=mask)
+
+    cv2.imshow('img', img)
+    #cv2.imshow('hsv', hsv)
+    cv2.imshow('mask', mask)
+    cv2.imshow('reslut', result)
+    cv2.waitKey(1)
+```
+<iframe width=854 height=480  src="https://www.youtube.com/watch?v=W82LyoAX1X4&ab_channel=%E5%8A%89%E5%AD%90%E7%B6%AD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen onload="onYouTubeIframeAPIReady()"></iframe>
 
 
 
