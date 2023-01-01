@@ -33,7 +33,7 @@ tags: [ai]
 
 ### 編譯器
 
-* Pycharm community Edition 2022.3.1
+* [Pycharm community Edition 2022.3.1](https://www.jetbrains.com/pycharm/)
 
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322738771_468128355307488_1754149219618568078_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=efMgIWEhYmgAX9CGJn3&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdTdn_6JR2vHp8_GjdyfXD39_Y0KovOau5H9lbCowRvOoQ&oe=63D8FFA9)
 
