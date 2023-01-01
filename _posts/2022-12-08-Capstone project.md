@@ -1,4 +1,4 @@
-# Virtual pen (虛擬筆)
+# Virtual pen
 #### Virtual pen (虛擬筆)
 ### 期末專題描述
 
