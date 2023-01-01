@@ -43,6 +43,8 @@ tags: [ai]
 
 RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色組合而成，分別是紅、藍及綠。
 
+![](https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/322010754_1897141797289952_686650028268774380_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=XMaJmHeq7bMAX8017-c&_nc_ht=scontent.ftpe7-3.fna&oh=03_AdTZcyEdVX3z1JdNDQbG5zMYFoDYDIwTuFnlDcigZNTH0A&oe=63D8F9EA)
+
 ![](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322322337_703527114646949_6883571111480502282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cFieXciHPtAAX__oWB5&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdT_tv_vdrpk56JivEbQF6EtXoVLydF8H-sfGQWltZJYMQ&oe=63D910D9)
 
 ### Pose Recognition (姿態辨識)
