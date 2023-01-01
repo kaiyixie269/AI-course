@@ -10,15 +10,15 @@ tags: [jekyll, ai]
 
 透過視訊鏡頭偵測顏色及輪廓並使用各種顏色的筆來寫出不同顏色的字及線條
 
----
+-
 ### 開發過程:
 
-1.讀取鏡頭
-2.偵測並過濾顏色範圍
-3.偵測不同顏色筆的筆尖並選取輪廓
+1. 讀取鏡頭
+2. 偵測並過濾顏色範圍
+3. 偵測不同顏色筆的筆尖並選取輪廓
 4.
 
----
+-
 ### OpenPose
 **Kaggle:** [rkuo2000/openpose-pytorch](https://github.com/rkuo2000/openpose-pytorch)<br>
 ![](https://github.com/rkuo2000/AI-course/blob/gh-pages/images/OpenPose_pytorch_racers.png?raw=true)
