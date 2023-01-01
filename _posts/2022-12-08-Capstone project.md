@@ -40,6 +40,7 @@ tags: [ai]
 ----
 ### 基本色彩介紹
 **RGB Color system**
+* [RGB和CMYK的色彩模式差異](https://jessielab.com/rgb%E5%92%8Ccmyk%E7%9A%84%E8%89%B2%E5%BD%A9%E6%A8%A1%E5%BC%8F%E5%B7%AE%E7%95%B0%EF%BC%8C%E9%97%9C%E6%96%BC%E8%A8%AD%E8%A8%88%E9%87%8D%E8%A6%81%E7%9A%84%E5%B0%8F%E4%BA%8B/)
 
 RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色的值組合而成，分別是紅、藍及綠。
 
