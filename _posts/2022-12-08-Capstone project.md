@@ -38,7 +38,8 @@ tags: [ai]
 ![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322738771_468128355307488_1754149219618568078_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=efMgIWEhYmgAX9CGJn3&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdTdn_6JR2vHp8_GjdyfXD39_Y0KovOau5H9lbCowRvOoQ&oe=63D8FFA9)
 
 ----
-### 
+### 基本色彩介紹
+**RGB Color system**
 ### Pose Recognition (姿態辨識)
 
 **專題實作步驟:**
