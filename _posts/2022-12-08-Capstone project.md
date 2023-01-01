@@ -1,7 +1,7 @@
 # Virtual pen (虛擬筆)
 layout: post
 title: Virtual pen
-author: [kaiyixie269]
+謝凱亦·劉子維 2023/1/1
 category: [Lecture]
 tags: [jekyll, ai]
 ---
