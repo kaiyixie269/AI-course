@@ -153,3 +153,11 @@ x, y, w, h = cv2.boundingRect(vertices)
 ```
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/322854187_2286169691550731_3726623165607082009_n.png?stp=dst-png_p206x206&_nc_cat=102&ccb=1-7&_nc_sid=aee45a&_nc_ohc=5goDnG_ThX8AX-4lTE8&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRLKe6Z2-DhgMmZ7Q5uibmCS6DmXCzN5YFcKfo8ujvopg&oe=63D93F53)
 
+**標出墨水出水點**
+
+出水點座標
+
+```
+return x+w//2, y
+```
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/318450774_869177634320911_6055296241311174056_n.png?stp=dst-png_p206x206&_nc_cat=100&ccb=1-7&_nc_sid=aee45a&_nc_ohc=3n0tuGzf-WsAX_Cf7Zw&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQktIDO0lSP2uiN19VXlbm0bFCvjL8I8YqxBEd7VbYFGQ&oe=63D94401)
