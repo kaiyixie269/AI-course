@@ -21,7 +21,7 @@ tags: [ai]
 
 ---
 ### 執行環境
- 這次使用的環境在軟硬體上要求非常低，全部在編譯器上即可完成，唯一的要求必須要有視訊鏡頭
+ 這次使用的環境在軟硬體上要求非常低，全部在編譯器上即可完成，唯一的要求必須要有**視訊鏡頭**。
  
  以下是使用版本供參考
  
@@ -34,8 +34,10 @@ tags: [ai]
 ### 編譯器
 
 * Pycharm community Edition 2022.3.1
+![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322738771_468128355307488_1754149219618568078_n.png?_nc_cat=106&ccb=1-7&_nc_sid=ae9488&_nc_ohc=efMgIWEhYmgAX9CGJn3&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdTdn_6JR2vHp8_GjdyfXD39_Y0KovOau5H9lbCowRvOoQ&oe=63D8FFA9)
 
 ----
+### 
 ### Pose Recognition (姿態辨識)
 
 **專題實作步驟:**
