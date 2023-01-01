@@ -128,7 +128,7 @@ while True:
     cv2.imshow('reslut', result)
     cv2.waitKey(1)
 ```
-![](https://scontent.xx.fbcdn.net/v/t1.15752-9/322262274_720590975999374_8670511542716617065_n.png?stp=dst-png_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=BEFXQJtc2MEAX9JWr_E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS7IykRQxlnY7ezXX7RlxGMErnBn9g_hh73G0E1uPyGFQ&oe=63D91C50)       ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321977649_730547511840179_1477310677725218409_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=2aJJ-c8voYEAX_a6tYf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTAq-5lmV5G_vRcYKTlaf5z8ftamZE83AaXsE6eaiMPDQ&oe=63D918CB)
+![](https://scontent.xx.fbcdn.net/v/t1.15752-9/322262274_720590975999374_8670511542716617065_n.png?stp=dst-png_p206x206&_nc_cat=108&ccb=1-7&_nc_sid=aee45a&_nc_ohc=BEFXQJtc2MEAX9JWr_E&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdS7IykRQxlnY7ezXX7RlxGMErnBn9g_hh73G0E1uPyGFQ&oe=63D91C50)              ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/321977649_730547511840179_1477310677725218409_n.png?stp=dst-png_p206x206&_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=2aJJ-c8voYEAX_a6tYf&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTAq-5lmV5G_vRcYKTlaf5z8ftamZE83AaXsE6eaiMPDQ&oe=63D918CB)
 
 
 
