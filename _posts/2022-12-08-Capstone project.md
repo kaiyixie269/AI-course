@@ -1,8 +1,5 @@
 # Virtual pen (虛擬筆)
 #
-***
-category: [Lecture]
-tags: [jekyll, ai]
 ---
 #### Virtual pen (虛擬筆)
 ### 期末專題描述
