@@ -179,3 +179,16 @@ penColorBGR = [[255, 0, 0],
                [0, 255, 255]]
 ```
 ![](https://scontent.xx.fbcdn.net/v/t1.15752-9/319130721_533708955361233_6011164299438475289_n.png?stp=dst-png_p206x206&_nc_cat=103&ccb=1-7&_nc_sid=aee45a&_nc_ohc=K4vb1NT_gPcAX-FVTIl&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQrWCS_y8fsfgaQyt3pYWgfSysHJsAcL23PzYireqFnoA&oe=63D93092)
+
+**最後使其畫出線條**
+
+建立一個新列表
+```
+drawPoints = []
+```
+將列表裡的值一一畫出
+```
+def draw(drawpoints):
+    for point in drawpoints:
+        cv2.circle(imgContour, (point[0], point[1]), 10, penColorBGR[point[2]], cv2.FILLED)
+```
