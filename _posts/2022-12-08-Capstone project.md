@@ -41,11 +41,21 @@ tags: [ai]
 ### 基本色彩介紹
 **RGB Color system**
 
-RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色組合而成，分別是紅、藍及綠。
-
-![](https://scontent.ftpe7-3.fna.fbcdn.net/v/t1.15752-9/322010754_1897141797289952_686650028268774380_n.png?_nc_cat=111&ccb=1-7&_nc_sid=ae9488&_nc_ohc=XMaJmHeq7bMAX8017-c&_nc_ht=scontent.ftpe7-3.fna&oh=03_AdTZcyEdVX3z1JdNDQbG5zMYFoDYDIwTuFnlDcigZNTH0A&oe=63D8F9EA)
+RGB 又稱三原色系統，一張彩色的圖片可以由三張單一顏色的值組合而成，分別是紅、藍及綠。
 
 ![](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322322337_703527114646949_6883571111480502282_n.png?_nc_cat=103&ccb=1-7&_nc_sid=ae9488&_nc_ohc=cFieXciHPtAAX__oWB5&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdT_tv_vdrpk56JivEbQF6EtXoVLydF8H-sfGQWltZJYMQ&oe=63D910D9)
+
+**HSV Color system**
+
+HSV 同樣與 RGB 為顏色表達方式，但不同的是 HSV 分為三種，分別是 Hue(色調)、Saturation(飽和度)以及Value(亮度)，利用這三者的值來表達顏色。
+
+![](https://scontent.ftpe7-4.fna.fbcdn.net/v/t1.15752-9/322600269_717995306710863_4803001096202598556_n.png?_nc_cat=105&ccb=1-7&_nc_sid=ae9488&_nc_ohc=sDNiSE6LbUcAX82Vkhg&_nc_ht=scontent.ftpe7-4.fna&oh=03_AdS4mmYV-2f3Sq505-m5akTltBLcE-l3S81RT-aoxRYWVg&oe=63D91924)
+
+HSV 相較於 RGB 更容易過濾出單一的顏色，所以在執行時必須由 RGB 轉為 HSV。
+
+顏色過濾示意
+
+![](https://scontent.ftpe7-1.fna.fbcdn.net/v/t1.15752-9/322354254_830394458021770_6704450352573886447_n.png?_nc_cat=100&ccb=1-7&_nc_sid=ae9488&_nc_ohc=OSdzHaTS4k0AX9jWMCG&_nc_ht=scontent.ftpe7-1.fna&oh=03_AdQXDVlsp40xWDjXAbbHnn_yLnaFkxDlN3H-leleIjk0_g&oe=63D90719)
 
 ### Pose Recognition (姿態辨識)
 
