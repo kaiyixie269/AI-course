@@ -5,8 +5,8 @@ author: [kaiyixie269]
 category: [Lecture]
 tags: [jekyll, ai]
 ---
-###期末專題實作
-Pose Estimation includes Applications, Body Pose, Head Pose, Hand Pose , Object Pose.
+### 期末專題實作
+
 
 ---
 
